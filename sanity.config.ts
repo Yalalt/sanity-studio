@@ -9,7 +9,7 @@ export default defineConfig({
 
   projectId: 'gwieubfy',
   dataset: 'production',
-
+  basePath: "/studio",
   plugins: [deskTool(), visionTool()],
 
   schema: {
